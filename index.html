@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MiniIdle</title>
+	</head>
+	<body>
+		<h1>MiniIdle</h1>
+		<p>
+			Energy: <span id="energy">0</span><br />
+			Money: <span id="money">50</span><br />
+			<br />
+			Robot: <span id="robots">0</span> (Produces 1 money per second) <button onclick="getRobot()">Get robot (Costs 1 energy and 10 money)</button><br />
+			Advanced Robot: <span id="ADVrobots">0</span> (Produces 1 robot per second) <button onclick="getADVrobot()">Get advanced robot (Costs 1 energy and 30 robots)</button><br />
+			Programmer Robot: <span id="PRGrobots">0</span> (Produces 1 advanced robot per second) <button onclick="getPRGrobot()">Get programmer robot (Costs 1 energy and 90 advanced robots)</button><br />
+			Engineer robot: <span id="ENGrobots">0</span> (Produces 1 programmer robot per second) <button onclick="getENGrobot()">Get engineer robot (Costs 1 energy and 270 programmer robots)</button><br />
+			<br />
+			Solar panel: <span id="panels">0</span> (Produces 1 energy per second) <button onclick="getPanel()">Get solar panel (Costs <span id="panelCost">1000</span> money)</button><br />
+			<br />
+			<button onclick="importSave()">Import Save</button><br />
+			<button onclick="exportSave()">Export Save</button><br />
+			
+		</p>
+		<script src="main.js"></script> 
+	</body>
+</html>
