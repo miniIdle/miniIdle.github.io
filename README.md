@@ -1,1 +1,0 @@
-# miniIdle.github.io
