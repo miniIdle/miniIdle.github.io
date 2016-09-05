@@ -1,0 +1,5 @@
+Alpha:
+v0.1:	Added money, energy, robots, advanced robots, programmer robots, and engineer robots
+
+Beta:
+v0.2:	Tweaked costs, added solar panels, save system
